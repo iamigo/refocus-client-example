@@ -9,13 +9,10 @@ const token = 'skqjkbqkjnq9n34jn3jk3fjnwefwefwef34'; // Your API token
 const rc = new RefocusClient(refocusUrl, apiVersion, token);
 
 rc.addLens('./MultiTable.zip', { isPublished: true })
-.then((lens) => {
-  console.log(lens);
-  return rc.addPerspective({
-    lensId: lens.id,
-    name: 'NorthAmerica',
-    rootSubject: 'NorthAmerica',
-  });
+.then((lens) => rc.addPerspective({
+  lensId: lens.id,
+  name: 'NorthAmerica',
+  rootSubject: 'NorthAmerica',
 })
 .catch((err) => {
   console.log('Uh oh!', err);
