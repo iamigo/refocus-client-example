@@ -1,0 +1,17 @@
+{
+  "name": "refocus-client-example",
+  "version": "1.0.0",
+  "description": "REST API wrapper for Refocus",
+  "main": "setup.js",
+  "scripts": {},
+  "repository": {},
+  "keywords": [],
+  "author": "Ian Goldstein <ianmgoldstein@gmail.com>",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "refocus-client": "^1.0.8",
+    "repeat": "0.0.6",
+    "tiny-random": "^1.5.0"
+  }
+}
