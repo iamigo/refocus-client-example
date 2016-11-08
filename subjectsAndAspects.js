@@ -24,11 +24,6 @@ rc.addRootSubject({
   name: 'Mexico',
   isPublished: true,
 }))
-.then(() => rc.addPerspective({
-  lensId: '9f5cd862-d1a5-4d78-9c3f-1257e4cff721',
-  name: 'NorthAmerica',
-  rootSubject: 'NorthAmerica',
-}))
 .catch((err) => {
   console.log('Uh oh!', err);
 });
