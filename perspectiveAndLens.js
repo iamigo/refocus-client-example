@@ -13,7 +13,7 @@ rc.addLens('./MultiTable.zip', { isPublished: true })
   lensId: lens.id,
   name: 'NorthAmerica',
   rootSubject: 'NorthAmerica',
-})
+}))
 .catch((err) => {
   console.log('Uh oh!', err);
 });
